@@ -1,12 +1,12 @@
 # Importando as bibliotecas necessárias
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path, include, re_path
 from rest_framework_simplejwt import views as jwt_views
 
 # Definindo as rotas da aplicação
 urlpatterns = [
     # Rota para a página de administração do Django
-    path('admin/', admin.site.urls),
+    re_path(r'^admin/', admin.site.urls),
     # Rota para obter um par de tokens (acesso e atualização) usando a biblioteca 'rest_framework_simplejwt'
     path('token/', 
           jwt_views.TokenObtainPairView.as_view(), 
@@ -17,4 +17,5 @@ urlpatterns = [
           name ='token_refresh'),
     # Incluindo as rotas definidas no aplicativo 'authentification'
     path('', include('authentification.urls')),
+    re_path(r'^', include('app.urls'))
 ]
