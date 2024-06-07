@@ -26,4 +26,9 @@ Ex: localhost:8000/rotas-listadas-abaixo
 
 - /usuarios
 - /cargos
+- /componentes
+- /tipos
+- /kits
+- /kit-componentes
+- /historico-producao
 
