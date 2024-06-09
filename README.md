@@ -5,11 +5,17 @@
 
 ## Comandos
 
-- Criar Migrations, necessario quando rodar o projeto e ao criar/alterar models:
+- Criar Migrations, é necessário executar os seguintes comandos:
 
 ```
 python3 manage.py makemigrations
 python3 manage.py migrate
+```
+
+- Popular o banco de dados
+
+```
+python3 manage.py populate_db
 ```
 
 - Rodar o servidor
