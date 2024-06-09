@@ -82,6 +82,7 @@ class KitsAgrupados(APIView):
 
             kits_agrupados.append({
                 'id_kit': kit.id,
+                'kit_nome': kit.nome,
                 'componentes': componentes,
                 'quantidade_peca_total': quantidade_peca_total
             })
