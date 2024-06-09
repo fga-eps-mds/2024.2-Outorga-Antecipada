@@ -9,5 +9,5 @@ urlpatterns = [
     re_path(r'^kits/$', views.KitList.as_view(), name='kit-list'),
     re_path(r'^kit-componentes/$', views.KitComponenteList.as_view(), name='kitcomponente-list'),
     re_path(r'^historico-producao/$', views.HistoricoProducaoList.as_view(), name='historicoproducao-list'),
-
+    re_path('consumir-servico-ia/', views.ConsumirServicoIA.as_view(), name='consumir-servico-ia'),
 ]
