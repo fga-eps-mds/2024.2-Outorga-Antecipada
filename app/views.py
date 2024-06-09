@@ -40,7 +40,6 @@ class HistoricoProducaoList(generics.ListCreateAPIView):
     serializer_class = HistoricoProducaoSerializer
 
 class ConsumirServicoIA(APIView):
-    
     def get(self, request, format=None):
         try:
             response = requests.get(IA_API_URL)
@@ -59,3 +58,32 @@ class ConsumirServicoIA(APIView):
                 return Response({"error": "Erro ao acessar a API de IA"}, status=response.status_code)
         except Exception as e:
             return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+        
+class KitsAgrupados(APIView):
+    def get(self, request, format=None):
+        kits_agrupados = []
+        kits = Kit.objects.all()
+
+        for kit in kits:
+            composicoes_kit = KitComponente.objects.filter(id_kit=kit)
+            quantidade_peca_total = 0
+            componentes = []
+
+            for composicao_kit in composicoes_kit:
+                componente = composicao_kit.id_componente
+                quantidade = composicao_kit.qtd_pecas
+                quantidade_peca_total += quantidade
+                componentes.append({
+                    'id_componente': componente.id,
+                    'nome': componente.nome,
+                    'tipo': componente.id_tipo.nome,
+                    'quantidade': quantidade
+                })
+
+            kits_agrupados.append({
+                'id_kit': kit.id,
+                'componentes': componentes,
+                'quantidade_peca_total': quantidade_peca_total
+            })
+
+        return Response(kits_agrupados)
