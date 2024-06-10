@@ -40,8 +40,20 @@ class HistoricoProducaoList(generics.ListCreateAPIView):
     serializer_class = HistoricoProducaoSerializer
 
 class ConsumirServicoIA(APIView):
+    
+    ## Aqui deve vir os dados da balanca para poder validar
+    balanca_mock = [5,8, 10]
+
     def get(self, request, format=None):
         try:
+            for peso_balanca in self.balanca_mock:
+                kit = Kit.objects.filter(peso=peso_balanca).first()
+            
+            if not kit:
+                    return Response({"error": "Peso da balança não corresponde a nenhum kit cadastrado"})    
+
+            print("Peso validado")    
+
             response = requests.get(IA_API_URL)
 
             if response.status_code == 200:
