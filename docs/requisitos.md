@@ -1,7 +1,3 @@
-Aqui está uma versão mais detalhada e aprimorada dos requisitos funcionais e não funcionais, com possíveis adições e melhorias para garantir maior clareza e completude:
-
----
-
 # Requisitos de Software
 
 ## Introdução
@@ -62,11 +58,12 @@ Tendo em vista a execução previa do projeto, foi possível realizar um refinam
 
 ---
 
-Sugestão de adição de requisitos funcionais e não funcionais:
+Refinamento sobre requisitos funcionais e não funcionais:
 
-## Requisitos Funcionais Adicionais/ Refinados
+## Requisitos Funcionais
 
-|   ID   | Requisito                                                                                       | Detalhamento 
+|   ID   | Requisito                                                                                       | Detalhamento                                                                                                              |
+| :-----: | :--------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------ |
 | RFSO01 | O sistema deve permitir que os usuários cadastrem kits                                          | O cadastro de kits deve incluir nome, lista de componentes associados, e um anexo do kit, alem do status (ativo, inativo) |
 | RFSO04 | O sistema deve permitir que os usuários excluam os kits                                         | Ao inves de excluir o registro a exclusão deve ser lógica (marcação como inativo)                                         |
 | RFSO08 | O sistema deve permitir que usuários sejam excluídos                                            | Ao inves de excluir o registro a exclusão deve ser lógica (marcação como inativo)                                         |
@@ -74,8 +71,10 @@ Sugestão de adição de requisitos funcionais e não funcionais:
 | RFSO15 | O sistema deve ser capaz de realizar controle de estoque                                        | O controle de estoque deve incluir alertas de reposição quando a quantidade mínima for atingida.                          |
 | RFSO20 | O sistema deve gerar relatórios de produção e estoque                                           | Os relatórios devem ser exportáveis em formatos como PDF e CSV                                                            |
 
-## Requisitos Não Funcionais Adicionais/ Refinados
+## Requisitos Não Funcionais
 
+|   ID   | Requisito                                                                                       | Detalhamento                                                                                                       |
+| :-----: | :--------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
 | RNFSO13 | O sistema deve garantir a segurança dos dados                                                  | Os dados devem ser criptografados, com controle de acesso baseado em permissões e autenticação de dois fatores.    |
 | RNFSO14 | O sistema deve ser escalável para suportar crescimento futuro                                  | A arquitetura deve permitir a adição de novos servidores e balanceamento de carga.                                 |
 | RNFSO15 | O tempo de resposta médio do sistema deve ser inferior a 500ms                                 | O desempenho deve ser monitorado e otimizado continuamente.                                                        |
