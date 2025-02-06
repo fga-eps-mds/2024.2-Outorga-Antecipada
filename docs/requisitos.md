@@ -26,13 +26,10 @@ Tendo em vista a execução previa do projeto, foi possível realizar um refinam
 | RFSO10 | O sistema deve permitir que os usuários editem os componentes                                   | A edição deve permitir a modificação de todos os campos cadastrados, exceto o ID do componente.                |
 | RFSO11 | O sistema deve permitir que os usuários listem os componentes                                   |                                                                                                                |
 | RFSO12 | O sistema deve permitir que os usuários excluam os componentes                                  | A exclusão deve eliminar o registro da base                                                                    |
-
 | RFSO13 | O sistema deve ser capaz de reconhecer as imagens dos elementos dos kits                        | O reconhecimento de imagens deve utilizar o modelo yolo v8  para identificar componentes.                      |
 | RFSO14 | O sistema deve ser capaz de comparar os dados da balança e das imagens dos componentes do kit   | A comparação deve validar a quantidade e o tipo de componente com base nos dados da balança e das imagens.     |
 | RFSO15 | O sistema deve ser capaz de realizar controle de estoque                                        | Armazenar a quantidade de cada componente disponível no estoque, atualizando automaticamente após a montagem.  |
-
 | RFSO16 | O sistema deve ser capaz de informar quantos e quais componentes ao concluir a montagem do kit  | O sistema deve gerar um relatório detalhado dos componentes utilizados e seu status após a montagem.           |
-
 | RFSO17 | O sistema deve permitir que os usuários selecionem kits para produção                           | A seleção deve incluir a verificação da disponibilidade de componentes no estoque.                             |
 | RFSO18 | O sistema deve permitir que os usuários se autentiquem no sistema com seu devido papel          | A autenticação deve ser feita via login e senha, com restrições de acesso baseadas no papel do usuário.        |
 | RFSO19 | O sistema deve permitir a configuração de permissões de acesso por papel                        | As permissões devem ser configuráveis para cada funcionalidade do sistema, com base no papel do usuário.       |
