@@ -11,4 +11,5 @@ theme:
     code: Roboto Mono
 nav:
   - Home: index.md
+  - Arquitetura - Esteira Inteligente: arquitetura.md
   - Requisitos: docs/requisitos.md
