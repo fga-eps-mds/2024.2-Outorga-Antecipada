@@ -14,7 +14,7 @@ Os seguintes indicadores foram definidos para a implementação do projeto:
 
 A tabela abaixo apresenta a descrição detalhada de cada indicador:  
 
-![Tabela de Indicadores](assets/tabela_indicadores.png)  
+![Tabela de Indicadores](https://raw.githubusercontent.com/fga-eps-mds/2024.2-Outorga-Antecipada/refs/heads/main/docs/assets/tabela_indicadores.png)  
 
 ## 3. Análise do Código-Fonte  
 
