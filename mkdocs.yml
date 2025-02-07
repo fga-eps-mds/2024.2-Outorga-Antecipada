@@ -19,7 +19,7 @@ nav:
   - Evolução do Material de Apoio à Disciplina:
     - Github: disciplina/github.md
     - SonarCube: disciplina/sonar.md
-  - Planejamento e Monitorrmento: 
-    - Roadmap atualizado (ZenHub): planejamento/roadmap.md
+  - Planejamento e Monitoramento: 
+    - Roadmap atualizado: planejamento/roadmap.md
     - Quadro de Atividades e distribuição de tarefas: planejamento/tarefas.md
   
