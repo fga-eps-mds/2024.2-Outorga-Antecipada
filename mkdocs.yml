@@ -15,6 +15,7 @@ nav:
     - Detalhamento do Problema: projeto/detalhamento.md
     - Requisitos: projeto/requisitos.md
     - Arquitetura: projeto/arquitetura.md
+    - Sugestões de Melhoria: projeto/melhorias.md
   - Evolução do Material de Apoio à Disciplina:
     - Github: disciplina/github.md
     - SonarCube: disciplina/sonar.md
