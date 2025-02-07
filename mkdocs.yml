@@ -12,7 +12,7 @@ theme:
 nav:
   - Home: index.md
   - Projeto Multidisciplinar:
-    - Detalhamento do Problema: projeto/detalhamento.md
+    - Detalhamento do Problema: detalhamento_problema.md
     - Requisitos: projeto/requisitos.md
     - Arquitetura: projeto/arquitetura.md
     - Sugestões de Melhoria: projeto/melhorias.md
