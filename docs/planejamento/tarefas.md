@@ -51,4 +51,4 @@ Os **boards** no ZenHub são uma ferramenta essencial para o gerenciamento visua
 
 ## Conclusão
 
-Os boards do ZenHub são uma ferramenta indispensável para gerenciar o fluxo de trabalho em projetos de software. No contexto do trabalho de outorga antecipada, os boards ajudam a equipe a organizar e priorizar tarefas, garantir qualidade nas entregas e manter uma comunicação clara sobre o estado atual do desenvolvimento.
+Os boards do ZenHub são uma ferramenta para gerenciar o fluxo de trabalho em projetos de software. No contexto do trabalho de outorga antecipada, os boards ajudam a equipe a organizar e priorizar tarefas, garantir qualidade nas entregas e manter uma comunicação clara sobre o estado atual do desenvolvimento.
