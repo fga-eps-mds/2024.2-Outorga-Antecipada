@@ -76,3 +76,4 @@ Refinamento sobre requisitos funcionais e não funcionais:
 | RNFSO14 | O sistema deve ser escalável para suportar crescimento futuro                                  | A arquitetura deve permitir a adição de novos servidores e balanceamento de carga.                                 |
 | RNFSO15 | O tempo de resposta médio do sistema deve ser inferior a 500ms                                 | O desempenho deve ser monitorado e otimizado continuamente.                                                        |
 | RNFSO16 | O sistema deve ser compatível com dispositivos móveis                                          | A interface deve ser responsiva e adaptável a diferentes tamanhos de tela.                                         |
+| RNFSO17 | O sistema deve contar com uma pipeline de test, build e deploy                                 | A pipeline deve incluir testes automatizados, integração contínua e entrega contínua. Garantindo confiabilidade.   |
