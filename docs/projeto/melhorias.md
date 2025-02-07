@@ -15,11 +15,10 @@ Este documento tem como objetivo centralizar as sugestões de melhorias no proje
 - Executar automaticamente:
   - Testes automatizados.
   - Linter e análise de qualidade do código.
-  - Deploy para um ambiente de staging/testes.
+  - Deploy para um ambiente registry.
 
-## 3. Melhorias na Suíte de Testes
-- Verificar a cobertura dos testes e adicionar casos para garantir robustez.
-- Implementar testes unitários e de integração para `services`, `repository` e `views`.
+## 3. Criação de Suíte de Testes
+- Implementar testes unitários o para `services`, `repository` e `views`.
 
 ## 5. Melhorias na Organização do Código (Extra)
 - Modularizar ainda mais a separação de responsabilidades entre `services` e `repository`.
@@ -40,7 +39,7 @@ Este documento tem como objetivo centralizar as sugestões de melhorias no proje
     - **Testes unitários** e **testes de interface (E2E)**.
     - Deploy automático.
 
-## 3. Melhoria na Suíte de Testes
+## 3. Criação de Suíte de Testes
 - Garantir que testes unitários estejam implementados.
 - Introduzir testes **E2E** com Cypress ou Playwright para validação da interface.
 
