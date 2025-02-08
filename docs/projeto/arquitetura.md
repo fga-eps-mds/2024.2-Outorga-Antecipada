@@ -27,7 +27,7 @@ O sistema permite que o usuário solicite kits de peças por meio de um cliente 
 - **Frontend (Next.js)**:
   - Interface gráfica para o usuário solicitar kits de peças e acompanhar a operação da esteira.
 - **Comunicação**:
-  - A Raspberry Pi se comunica com os Arduinos via **HTTP**.
+  - A Raspberry Pi se comunica com os Arduinos via **Serial/USB**.
   - O frontend se comunica com o backend via **HTTP**.
 
 ## Fluxo de Operação
@@ -45,7 +45,7 @@ O sistema permite que o usuário solicite kits de peças por meio de um cliente 
 - **Inteligência Artificial**: YOLOv8.
 - **Backend**: Django.
 - **Frontend**: Next.js, React.
-- **Comunicação**: HTTP.
+- **Comunicação**: HTTP, Serial/USB.
 
 ## 
 
