@@ -13,32 +13,24 @@ Tendo em vista a execução previa do projeto, foi possível realizar um refinam
 ## Requisitos Funcionais
 
 |   ID   | Requisito                                                                                       | Detalhamento                                                                                                   |
-| :----: | :--------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------   |
-| RFSO01 | O sistema deve permitir que os usuários cadastrem kits                                          | O cadastro de kits deve incluir nome, lista de componentes associados, e um anexo do kit                       |
-| RFSO02 | O sistema deve permitir que os usuários editem os kits                                          | A edição deve permitir a modificação de todos os campos cadastrados, exceto o ID do kit.                       |
-| RFSO03 | O sistema deve permitir que os usuários listem os kits                                          | A listagem deve informar a lista de componentes com nome e anexo, além da opção de produzir                    |
-| RFSO04 | O sistema deve permitir que os usuários excluam os kits                                         | A exclusão deve eliminar o registro da base                                                                    |
-| RFSO05 | O sistema deve permitir que usuários sejam cadastrados                                          | O cadastro de usuários deve incluir nome, e-mail, senha, papel (administrador/operador)                        |
-| RFSO06 | O sistema deve permitir que usuários sejam editados                                             | A edição deve permitir a modificação de todos os campos, exceto o ID do usuário.                               |
-| RFSO07 | O sistema deve permitir que usuários sejam listados                                             |                                                                                                                |
-| RFSO08 | O sistema deve permitir que usuários sejam excluídos                                            | A exclusão deve eliminar o registro da base                                                                    |
-| RFSO09 | O sistema deve permitir que os usuários cadastrem os componentes                                | O cadastro de componentes deve incluir nome, descrição, quantidade mínima em estoque e tipo.                   |
-| RFSO10 | O sistema deve permitir que os usuários editem os componentes                                   | A edição deve permitir a modificação de todos os campos cadastrados, exceto o ID do componente.                |
-| RFSO11 | O sistema deve permitir que os usuários listem os componentes                                   |                                                                                                                |
-| RFSO12 | O sistema deve permitir que os usuários excluam os componentes                                  | A exclusão deve eliminar o registro da base                                                                    |
-| RFSO13 | O sistema deve ser capaz de reconhecer as imagens dos elementos dos kits                        | O reconhecimento de imagens deve utilizar o modelo yolo v8  para identificar componentes.                      |
-| RFSO14 | O sistema deve ser capaz de comparar os dados da balança e das imagens dos componentes do kit   | A comparação deve validar a quantidade e o tipo de componente com base nos dados da balança e das imagens.     |
-| RFSO15 | O sistema deve ser capaz de realizar controle de estoque                                        | Armazenar a quantidade de cada componente disponível no estoque, atualizando automaticamente após a montagem.  |
-| RFSO16 | O sistema deve ser capaz de informar quantos e quais componentes ao concluir a montagem do kit  | O sistema deve gerar um relatório detalhado dos componentes utilizados e seu status após a montagem.           |
-| RFSO17 | O sistema deve permitir que os usuários selecionem kits para produção                           | A seleção deve incluir a verificação da disponibilidade de componentes no estoque.                             |
-| RFSO18 | O sistema deve permitir que os usuários se autentiquem no sistema com seu devido papel          | A autenticação deve ser feita via login e senha, com restrições de acesso baseadas no papel do usuário.        |
-| RFSO19 | O sistema deve permitir a configuração de permissões de acesso por papel                        | As permissões devem ser configuráveis para cada funcionalidade do sistema, com base no papel do usuário.       |
+| :----: | :--------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------ |
+| RFSO01 | O sistema deve permitir que os usuários realizem operações CRUD em kits                        | As operações devem incluir cadastro, edição, listagem e exclusão. O cadastro e edição devem conter nome, lista de componentes associados e um anexo do kit. A listagem deve exibir os componentes com nome e anexo, além da opção de produzir. A exclusão deve remover o registro da base. |
+| RFSO02 | O sistema deve permitir que os usuários realizem operações CRUD em usuários                    | As operações devem incluir cadastro, edição, listagem e exclusão. O cadastro e edição devem conter nome, e-mail, senha e papel (administrador/operador). A exclusão deve remover o registro da base. |
+| RFSO03 | O sistema deve permitir que os usuários realizem operações CRUD em componentes                  | As operações devem incluir cadastro, edição, listagem e exclusão. O cadastro e edição devem conter nome, descrição, quantidade mínima em estoque e tipo. A exclusão deve remover o registro da base. |
+| RFSO04 | O sistema deve ser capaz de reconhecer as imagens dos elementos dos kits                        | O reconhecimento de imagens deve utilizar o modelo YOLO v8 para identificar componentes.                      |
+| RFSO05 | O sistema deve ser capaz de comparar os dados da balança e das imagens dos componentes do kit   | A comparação deve validar a quantidade e o tipo de componente com base nos dados da balança e das imagens.     |
+| RFSO06 | O sistema deve ser capaz de realizar controle de estoque                                        | Armazenar a quantidade de cada componente disponível no estoque, atualizando automaticamente após a montagem.  |
+| RFSO07 | O sistema deve ser capaz de informar quantos e quais componentes ao concluir a montagem do kit  | O sistema deve gerar um relatório detalhado dos componentes utilizados e seu status após a montagem.           |
+| RFSO08 | O sistema deve permitir que os usuários selecionem kits para produção                           | A seleção deve incluir a verificação da disponibilidade de componentes no estoque.                             |
+| RFSO09 | O sistema deve permitir que os usuários se autentiquem no sistema com seu devido papel          | A autenticação deve ser feita via login e senha, com restrições de acesso baseadas no papel do usuário.        |
+| RFSO10 | O sistema deve permitir a configuração de permissões de acesso por papel                        | As permissões devem ser configuráveis para cada funcionalidade do sistema, com base no papel do usuário.       |
+
 
 ---
 
 ## Requisitos Não Funcionais
 
-|   ID    | Requisito                                                                                       | Detalhamento                                                                                                 |
+|   ID    | Requisito                                                                                      | Detalhamento                                                                                                  |
 | :-----: | :--------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------ |
 | RNFSO01 | Os usuários do sistema serão separados por administrador e operador                            | O administrador terá acesso total ao sistema, enquanto o operador terá acesso restrito a funcionalidades específicas. |
 | RNFSO02 | A detecção e reconhecimento de componentes devem ocorrer em tempo real                         | O tempo de resposta para reconhecimento de imagens deve ser inferior a 2 segundos.                            |
@@ -51,7 +43,7 @@ Tendo em vista a execução previa do projeto, foi possível realizar um refinam
 | RNFSO09 | O backend será desenvolvido em Python/Django                                                   | O uso de Django deve garantir modularidade, segurança e escalabilidade.                                       |
 | RNFSO10 | O frontend será desenvolvido em TypeScript/React                                               | O uso de React deve garantir uma interface dinâmica e responsiva.                                             |
 | RNFSO11 | O sistema deve ser uma aplicação web acessível via navegadores padrão                          | A aplicação deve ser compatível com Chrome, Firefox, Edge e Safari.                                           |
-| RNFSO12 | O banco de dados será desenvolvido em MySQL                                                    | O banco de dados deve ser normalizado                                                                         |
+| RNFSO12 | O banco de dados será desenvolvido em SQlite                                                   | O banco de dados deve ser normalizado                                                                         |
 
 ---
 
@@ -75,5 +67,5 @@ Refinamento sobre requisitos funcionais e não funcionais:
 | RNFSO13 | O sistema deve garantir a segurança dos dados                                                  | Os dados devem ser criptografados, com controle de acesso baseado em permissões e autenticação de dois fatores.    |
 | RNFSO14 | O sistema deve ser escalável para suportar crescimento futuro                                  | A arquitetura deve permitir a adição de novos servidores e balanceamento de carga.                                 |
 | RNFSO15 | O tempo de resposta médio do sistema deve ser inferior a 500ms                                 | O desempenho deve ser monitorado e otimizado continuamente.                                                        |
-| RNFSO16 | O sistema deve ser compatível com dispositivos móveis                                          | A interface deve ser responsiva e adaptável a diferentes tamanhos de tela.                                         |
+| RNFSO16 | O sistema deve ser compatível com dispositivos móveis                                          | A interface deve ser responsiva e adaptável a diferentes tamanhos de tela, incluindo smartphones (mínimo 360x640px), tablets (mínimo 768x1024px) e desktops (mínimo 1366x768px).                                           |
 | RNFSO17 | O sistema deve contar com uma pipeline de test, build e deploy                                 | A pipeline deve incluir testes automatizados, integração contínua e entrega contínua. Garantindo confiabilidade.   |
