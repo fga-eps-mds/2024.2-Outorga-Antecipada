@@ -27,4 +27,4 @@ A **Esteira Inteligente** é uma solução inovadora desenvolvida para aprimorar
 - **Aumento da Produtividade:** Com a otimização dos processos e a redução do tempo de montagem, espera-se um aumento significativo na produtividade da linha de produção.
 - **Flexibilidade Operacional:** A capacidade de adaptação rápida a diferentes produtos e configurações permite que a empresa responda agilmente às demandas do mercado.
 
-Para mais informações e acesso à documentação completa do projeto, visite o pages: https://esteira-inteligente-docs-fga-pi2-semestre-2024-1-4f19bee6666f37.gitlab.io
+Para mais informações e acesso à documentação completa do projeto, visite o [pages](https://esteira-inteligente-docs-fga-pi2-semestre-2024-1-4f19bee6666f37.gitlab.io)
