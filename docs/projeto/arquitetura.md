@@ -5,7 +5,7 @@ O projeto [Esteira  inteligente]() utiliza uma **Raspberry Pi 4** como unidade c
 
 O sistema permite que o usuário solicite kits de peças por meio de um cliente web. A IA processa imagens para identificar as peças presentes na esteira e garantir que o kit solicitado seja corretamente montado e entregue ao usuário.
 
-![Arquitetura do Projeto](https://raw.githubusercontent.com/fga-eps-mds/2024.2-Outorga-Antecipada/refs/heads/docs/arquitetura/docs/assets/EI.jpg)
+![Arquitetura do Projeto](https://github.com/fga-eps-mds/2024.2-Outorga-Antecipada/blob/main/docs/assets/EI.jpg)
 
 ## Componentes Principais
 
