@@ -1,7 +1,3 @@
-Aqui está a versão revisada do seu relatório com uma estrutura mais clara, objetiva e padronizada:  
-
----
-
 # **Relatório de Contribuição Individual**  
 
 ## **Introdução**  
