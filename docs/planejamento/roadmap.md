@@ -10,30 +10,37 @@ O roadmap ajuda a equipe a visualizar o progresso do projeto, priorizar tarefas 
 
 # Roadmap do Projeto: Otorga-Antecipada-EPS-2024-2
 
-![Roadmap](https://raw.githubusercontent.com/fga-eps-mds/2024.2-Outorga-Antecipada/refs/heads/docs/planejamento/docs/assets/roadmap.png)
+![Roadmap](../assets/roadmap.png)
 
 No roadmap apresentado, observa-se o planejamento para realização de avaliação de outorga antecipada com épicos, milestones, issues e sub-issues. Os épicos incluem:
 
 ### Sprint Atual (Jan 31 - Feb 21, 2025)
-1. **Dockerizar Serviço (EI):**
+1. **Planejamento de Atividades:**
+      - Problematização, concepção e planejamento da Esteira Inteligente.
+      - Problematização, concepção e planejamento do MeasureSoftwareGran
+
+2. **Dockerizar Serviço (EI):**
       - Objetivo: Configurar o serviço para ser executado em contêineres Docker, o que aumenta a portabilidade e escalabilidade.
 
-2. **Incremento de Confiabilidade de Serviço (EI):**
+3. **Implementação de testes (EI):**
       - Objetivo: Melhorar a confiabilidade do serviço, implementando testes automatizados.
 
-3. **Incorporação de Métricas (MSG):**
+4. **Levantamento de alterações necessárias para incorporação de novas métricas:**
+      - Objetivo: Identificar e documentar as alterações necessárias para incorporar novas métricas de confiabilidade no projeto.
+
+5. **Incorporação de Métricas (MSG):**
       - Objetivo: Implementar novos indicadores de qualidade no material de apoio a disciplina.
 
-4. **Evolução de Documentação (EI):**
+6. **Evolução de Documentação (EI):**
       - Objetivo: Analisar documentação existente para entendimento do projeto e, durante implementação de melhorias no projeto as documentar.
 
-5. **Evolução Material de Qualidade de Produto (MSG):**
+7. **Evolução Material de Qualidade de Produto (MSG):**
       - Objetivo: Entender como obter informações para a melhor execução do épico 3.
 
-6. **Pipeline de Deploy Contínuo (EI):**
+8. **Pipeline de Deploy Contínuo (EI):**
       - Objetivo: Configurar um pipeline automatizado para deploys no projeto Esteira Inteligente.
 
-7. **Pipeline de Integração Contínua (EI):**
+9. **Pipeline de Integração Contínua (EI):**
       - Objetivo: Estabelecer processos de integração contínua para o projeto Esteira Inteligente.
 
 ---
