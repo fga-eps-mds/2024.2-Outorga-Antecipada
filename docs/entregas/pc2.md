@@ -15,6 +15,11 @@ As seguintes atividades foram finalizadas:
 - **Teste Automatizado Backend** (#58) ✅
 - **Implementar docker compose backend** (#66) ✅
 - **Implementar Docker Compose - EI** (#52) ✅
+- **Acoplar build backend CI** (#46) ✅
+- **Acoplar teste backend ci** (#61) ✅
+- **Acoplar lint backend ci** (#65) ✅
+- **Implementar testes de nível unitário sobre aplicação** (#74) ✅
+- **Acoplar deploy em registry - backend ci** (#75) ✅
 
 ### Tarefas em Progresso
 As seguintes atividades ainda estão em desenvolvimento:
