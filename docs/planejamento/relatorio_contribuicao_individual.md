@@ -11,12 +11,13 @@ Este documento detalha as contribuições individuais dos membros do grupo de tr
 #### **Pedro Jesus, Caio Carneiro**  
 - Descrição das alterações necessárias no `parser_template`.  
 - Descrição das alterações necessárias no `internal_quality-sonarqube`.  
+- Implementação da métrica **"Bug Density per LOC"** para o notebook de análise da qualidade interna do produto de software.  
+- Implementação da métrica **"Fulfillment of Critical/Blocker Quality Rules"** para o notebook de análise da qualidade interna do produto de software.  
 
 #### **Caio Carneiro**  
 - Implementação da métrica **"Bug Density per LOC"**.  
 - Implementação da métrica **"Non-Blocking File"**.  
-- Implementação da métrica **"Bug Density per LOC"** para o notebook de análise da qualidade interna do produto de software.  
-- Implementação da métrica **"Fulfillment of Critical/Blocker Quality Rules"** para o notebook de análise da qualidade interna do produto de software.  
+- Pesquisa para extrair localmente merges anteriores.
 
 ### **Projeto Multidisciplinar**  
 
