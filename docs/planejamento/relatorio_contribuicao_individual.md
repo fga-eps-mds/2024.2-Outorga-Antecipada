@@ -35,6 +35,7 @@ Este documento detalha as contribuições individuais dos membros do grupo de tr
 - Implementar docker compose backend.
 - Comentário sobre uso de sqlite no backend.
 - Quebra de teste para comprovar a integridade do CI.
+- Segmenta teste de integração em teste de unidade.
 
 #### **Caio Carneiro**  
 - Detalhamento do problema.  
