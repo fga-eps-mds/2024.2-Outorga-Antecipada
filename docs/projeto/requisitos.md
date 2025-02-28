@@ -43,7 +43,7 @@ Tendo em vista a execução previa do projeto, foi possível realizar um refinam
 | RNFSO09 | O backend será desenvolvido em Python/Django                                                   | O uso de Django deve garantir modularidade, segurança e escalabilidade.                                       |
 | RNFSO10 | O frontend será desenvolvido em TypeScript/React                                               | O uso de React deve garantir uma interface dinâmica e responsiva.                                             |
 | RNFSO11 | O sistema deve ser uma aplicação web acessível via navegadores padrão                          | A aplicação deve ser compatível com Chrome, Firefox, Edge e Safari.                                           |
-| RNFSO12 | O banco de dados será desenvolvido em SQlite                                                   | O banco de dados deve ser normalizado                                                                         |
+| RNFSO12 | O banco de dados será desenvolvido em SQlite, alternativa default do Django                    | O banco de dados deve ser normalizado                                                                         |
 
 ---
 
